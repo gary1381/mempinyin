@@ -1,0 +1,10 @@
+N=360  ref in libime N-best16: 322/360
+B0 libime top-1: 262/360 = 72.8%
+S1: 288/360 = 80.0%  broken=5 fixed=31 raw p=1.29e-05  rerank ms p50=260.2 p95=439.9
+S2: 302/360 = 83.9%  broken=7 fixed=47 raw p=2.29e-08  rerank ms p50=3179.6 p95=6666.1
+S1_noctx: 275/360 = 76.4%  broken=14 fixed=27 raw p=5.96e-02  rerank ms p50=48.0 p95=92.4
+S2_noctx: 277/360 = 76.9%  broken=19 fixed=34 raw p=5.34e-02  rerank ms p50=603.5 p95=1306.1
+PRIMARY S1 vs B0: Holm-adjusted p=1.29e-05 -> SIGNIFICANTLY BETTER
+PRIMARY S2 vs B0: Holm-adjusted p=4.58e-08 -> SIGNIFICANTLY BETTER
+dialogue (n=200): B0 79.0%  S1 84.0%  S2 89.5%  S1_noctx 83.5%  S2_noctx 83.0%
+narrative (n=160): B0 65.0%  S1 75.0%  S2 76.9%  S1_noctx 67.5%  S2_noctx 69.4%

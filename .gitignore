@@ -1,0 +1,24 @@
+# built benchmark binaries
+bench/libime_bench
+bench/libime_nbest
+bench/rime_bench
+bench/gpy_bench
+bench/lpy_bench
+bench/lpy_nbest
+*.o
+# rebuilt test data (PerLTQA-derived, not redistributed), dictionary dumps, raw outputs
+*.jsonl
+*.tsv
+!bench/sentences.tsv
+!bench/words.tsv
+bench/confirm/sc_dict.txt
+bench/confirm/confirm_results.json
+*.out
+*.err
+*.log
+# models are downloaded separately (README: Reproduce)
+/models/
+*.onnx
+*.safetensors
+__pycache__/
+*.pyc

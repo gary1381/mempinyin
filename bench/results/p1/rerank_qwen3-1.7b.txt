@@ -1,0 +1,24 @@
+model=models/Qwen3-1.7B load_s=14.3 n=59 libime_top1=50/59
+rerank_ms all-cands p50=3273 p95=3924; top3 p50=873 p95=1028  (2 CPU threads)
+PRIMARY  LM-only, all N-best: top1=50/59=84.7%  broken=8 fixed=8 McNemar p=1.0000
+explore  LM-only, top-3: top1=50/59=84.7%  broken=5 fixed=5 McNemar p=1.0000
+explore  LM + 0.25*libime, all N-best: top1=50/59=84.7%  broken=8 fixed=8 McNemar p=1.0000
+explore  LM + 0.5*libime, all N-best: top1=51/59=86.4%  broken=6 fixed=7 McNemar p=1.0000
+explore  LM + 1.0*libime, all N-best: top1=53/59=89.8%  broken=3 fixed=6 McNemar p=0.5078
+BROKEN ref=请把文件发到我的邮箱 libime=请把文件发到我的邮箱 rerank=情把文件发到我的邮箱
+STILL  ref=人工智能发展得非常快 libime=人工智能发展的非常快 rerank=人工智能发展的非常快
+BROKEN ref=请在输入之后按回车键 libime=请在输入之后按回车键 rerank=轻在输入之后按回车键
+BROKEN ref=他们正在讨论新产品的设计 libime=他们正在讨论新产品的设计 rerank=她们正在讨论新产品的设计
+FIXED  ref=银行账户余额不足 libime=银行帐户余额不足 rerank=银行账户余额不足
+BROKEN ref=小明昨天去了上海 libime=小明昨天去了上海 rerank=小名昨天去了上海
+FIXED  ref=服务器的响应时间太长了 libime=服务器的相应时间太长了 rerank=服务器的响应时间太长了
+BROKEN ref=他说话的声音很小 libime=他说话的声音很小 rerank=它说话的声音很小
+BROKEN ref=他长得很高 libime=他长得很高 rerank=她长的很高
+BROKEN ref=他们的行为很奇怪 libime=他们的行为很奇怪 rerank=她们的行为很奇怪
+FIXED  ref=这个项目的预算已经超支了 libime=这个项目的预算已经超值了 rerank=这个项目的预算已经超支了
+FIXED  ref=机器翻译的质量越来越好 libime=及其翻译的质量越来越好 rerank=机器翻译的质量越来越好
+BROKEN ref=我买了一些水果和蔬菜 libime=我买了一些水果和蔬菜 rerank=我卖了一些水果和蔬菜
+FIXED  ref=我住在深圳 libime=握住在深圳 rerank=我住在深圳
+FIXED  ref=张三和李四都是我的同学 libime=张三合理死斗是我的同学 rerank=张三和李四都是我的同学
+FIXED  ref=长江是中国最长的河 libime=长江是中国最长的和 rerank=长江是中国最长的河
+FIXED  ref=重庆的火锅很辣 libime=重庆的火锅狠辣 rerank=重庆的火锅很辣

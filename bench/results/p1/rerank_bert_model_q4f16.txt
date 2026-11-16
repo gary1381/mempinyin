@@ -1,0 +1,26 @@
+model=model_q4f16.onnx load_s=0.12 n=59 libime_top1=50/59
+rerank_ms full_all: p50=2413.7 p95=4760.3 max=6122.0  (2 threads)
+rerank_ms diff_all: p50=1330.2 p95=2596.1 max=3203.4  (2 threads)
+rerank_ms full_top3: p50=424.1 p95=803.1 max=1044.4  (2 threads)
+rerank_ms diff_top3: p50=113.4 p95=198.9 max=331.8  (2 threads)
+MLM-only, all N-best (full PLL): top1=58/59=98.3%  broken=1 fixed=9 McNemar p=0.0215
+MLM-only, all N-best (diff PLL): top1=59/59=100.0%  broken=0 fixed=9 McNemar p=0.0039
+MLM-only, top-3 (full PLL): top1=55/59=93.2%  broken=1 fixed=6 McNemar p=0.1250
+MLM-only, top-3 (diff PLL): top1=56/59=94.9%  broken=0 fixed=6 McNemar p=0.0312
+MLM + 0.5*libime, all N-best (full PLL): top1=59/59=100.0%  broken=0 fixed=9 McNemar p=0.0039
+MLM + 0.5*libime, top-3 (full PLL): top1=56/59=94.9%  broken=0 fixed=6 McNemar p=0.0312
+MLM + 0.5*libime, top-3 (diff PLL): top1=56/59=94.9%  broken=0 fixed=6 McNemar p=0.0312
+MLM + 1.0*libime, all N-best (full PLL): top1=57/59=96.6%  broken=0 fixed=7 McNemar p=0.0156
+MLM + 1.0*libime, top-3 (full PLL): top1=54/59=91.5%  broken=0 fixed=4 McNemar p=0.1250
+MLM + 1.0*libime, top-3 (diff PLL): top1=54/59=91.5%  broken=0 fixed=4 McNemar p=0.1250
+detail: MLM-only, all N-best (full PLL): top1=58/59=98.3%  broken=1 fixed=9 McNemar p=0.0215
+FIXED  ref=人工智能发展得非常快 libime=人工智能发展的非常快 rerank=人工智能发展得非常快
+BROKEN ref=我们需要更多的时间 libime=我们需要更多的时间 rerank=我们需要更多的实践
+FIXED  ref=银行账户余额不足 libime=银行帐户余额不足 rerank=银行账户余额不足
+FIXED  ref=服务器的响应时间太长了 libime=服务器的相应时间太长了 rerank=服务器的响应时间太长了
+FIXED  ref=这个项目的预算已经超支了 libime=这个项目的预算已经超值了 rerank=这个项目的预算已经超支了
+FIXED  ref=机器翻译的质量越来越好 libime=及其翻译的质量越来越好 rerank=机器翻译的质量越来越好
+FIXED  ref=我住在深圳 libime=握住在深圳 rerank=我住在深圳
+FIXED  ref=张三和李四都是我的同学 libime=张三合理死斗是我的同学 rerank=张三和李四都是我的同学
+FIXED  ref=长江是中国最长的河 libime=长江是中国最长的和 rerank=长江是中国最长的河
+FIXED  ref=重庆的火锅很辣 libime=重庆的火锅狠辣 rerank=重庆的火锅很辣

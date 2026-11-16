@@ -1,0 +1,6502 @@
+{
+"note": "PerLTQA-derived text (CC BY-NC 4.0) removed for redistribution; per-item correctness flags kept (from confirm_results.json, written by rerank_confirm.py); perltqa_id = PerLTQA zh dialogue/event id + clause index, as written by build_items.py",
+"systems": [
+"libime",
+"S1",
+"S2",
+"S1_noctx",
+"S2_noctx"
+],
+"items": [
+{
+"i": 0,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": false,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p105/d108_8_0#22"
+},
+{
+"i": 1,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p21/d22_3_0#6"
+},
+{
+"i": 2,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p25/d26_7_1#20"
+},
+{
+"i": 3,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p76/d79_6_0#5"
+},
+{
+"i": 4,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 45,
+"perltqa_id": "p112/d115_8_0#24"
+},
+{
+"i": 5,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p89/d92_8_2#23"
+},
+{
+"i": 6,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 62,
+"perltqa_id": "p108/d111_5_2#17"
+},
+{
+"i": 7,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p102/d105_6_2#19"
+},
+{
+"i": 8,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p60/d62_6_1#14"
+},
+{
+"i": 9,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p27/d28_0_0#0"
+},
+{
+"i": 10,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 36,
+"perltqa_id": "p139/d142_4_2#13"
+},
+{
+"i": 11,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p25/d26_7_0#19"
+},
+{
+"i": 12,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p12/d13_5_2#16"
+},
+{
+"i": 13,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p118/d121_7_0#21"
+},
+{
+"i": 14,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p31/d33_6_2#19"
+},
+{
+"i": 15,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p37/d39_1_2#5"
+},
+{
+"i": 16,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p42/d44_5_0#14"
+},
+{
+"i": 17,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p85/d88_3_0#9"
+},
+{
+"i": 18,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p39/d41_2_2#8"
+},
+{
+"i": 19,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p16/d17_8_5#21"
+},
+{
+"i": 20,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p98/d101_0_1#1"
+},
+{
+"i": 21,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p99/d102_7_1#18"
+},
+{
+"i": 22,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p57/d59_4_1#11"
+},
+{
+"i": 23,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p123/d126_5_2#17"
+},
+{
+"i": 24,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p76/d79_7_1#9"
+},
+{
+"i": 25,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p4/d5_0_2#2"
+},
+{
+"i": 26,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p57/d59_2_2#7"
+},
+{
+"i": 27,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 63,
+"perltqa_id": "p103/d106_3_2#10"
+},
+{
+"i": 28,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p51/d53_4_2#8"
+},
+{
+"i": 29,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p76/d79_0_0#0"
+},
+{
+"i": 30,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p78/d81_7_0#17"
+},
+{
+"i": 31,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p53/d55_1_0#3"
+},
+{
+"i": 32,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p82/d85_2_0#5"
+},
+{
+"i": 33,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p13/d14_2_2#7"
+},
+{
+"i": 34,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p8/d9_7_0#17"
+},
+{
+"i": 35,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 15,
+"perltqa_id": "p43/d45_2_2#8"
+},
+{
+"i": 36,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p102/d105_1_2#5"
+},
+{
+"i": 37,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p29/d31_4_1#11"
+},
+{
+"i": 38,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p66/d69_5_0#14"
+},
+{
+"i": 39,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p15/d16_2_1#7"
+},
+{
+"i": 40,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p81/d84_1_2#4"
+},
+{
+"i": 41,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p90/d93_3_1#7"
+},
+{
+"i": 42,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 33,
+"perltqa_id": "p29/d31_7_0#18"
+},
+{
+"i": 43,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p32/d34_4_0#10"
+},
+{
+"i": 44,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p107/d110_5_1#16"
+},
+{
+"i": 45,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p48/d50_0_1#1"
+},
+{
+"i": 46,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 61,
+"perltqa_id": "p88/d91_6_2#15"
+},
+{
+"i": 47,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p108/d111_1_2#5"
+},
+{
+"i": 48,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 21,
+"perltqa_id": "p132/d135_2_2#7"
+},
+{
+"i": 49,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 16,
+"context_chars": 17,
+"perltqa_id": "p50/d52_0_1#1"
+},
+{
+"i": 50,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p101/d104_7_2#21"
+},
+{
+"i": 51,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p29/d31_5_0#13"
+},
+{
+"i": 52,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p103/d106_2_0#5"
+},
+{
+"i": 53,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p38/d40_2_0#6"
+},
+{
+"i": 54,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p104/d107_3_0#9"
+},
+{
+"i": 55,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p114/d117_5_0#11"
+},
+{
+"i": 56,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p8/d9_3_0#7"
+},
+{
+"i": 57,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p137/d140_0_1#1"
+},
+{
+"i": 58,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p33/d35_7_1#19"
+},
+{
+"i": 59,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p99/d102_3_1#6"
+},
+{
+"i": 60,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p39/d41_7_0#21"
+},
+{
+"i": 61,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p94/d97_7_2#23"
+},
+{
+"i": 62,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p131/d134_2_0#6"
+},
+{
+"i": 63,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p73/d76_7_0#11"
+},
+{
+"i": 64,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p65/d68_5_1#14"
+},
+{
+"i": 65,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p26/d27_8_2#21"
+},
+{
+"i": 66,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p94/d97_6_0#18"
+},
+{
+"i": 67,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p38/d40_3_2#11"
+},
+{
+"i": 68,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 4,
+"context_chars": 34,
+"perltqa_id": "p13/d14_7_0#20"
+},
+{
+"i": 69,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p116/d119_6_5#20"
+},
+{
+"i": 70,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p16/d17_10_2#24"
+},
+{
+"i": 71,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p43/d45_5_2#17"
+},
+{
+"i": 72,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p71/d74_1_1#1"
+},
+{
+"i": 73,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p127/d130_3_2#10"
+},
+{
+"i": 74,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p21/d22_7_2#20"
+},
+{
+"i": 75,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p52/d54_7_1#17"
+},
+{
+"i": 76,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p89/d92_4_1#11"
+},
+{
+"i": 77,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p42/d44_3_2#10"
+},
+{
+"i": 78,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p120/d123_6_2#19"
+},
+{
+"i": 79,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p123/d126_4_1#13"
+},
+{
+"i": 80,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p119/d122_1_0#2"
+},
+{
+"i": 81,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p3/d4_7_1#18"
+},
+{
+"i": 82,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p32/d34_1_1#3"
+},
+{
+"i": 83,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 43,
+"perltqa_id": "p86/d89_6_1#18"
+},
+{
+"i": 84,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p80/d83_4_0#12"
+},
+{
+"i": 85,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 11,
+"context_chars": 55,
+"perltqa_id": "p85/d88_5_1#16"
+},
+{
+"i": 86,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p5/d6_0_0#0"
+},
+{
+"i": 87,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 22,
+"perltqa_id": "p48/d50_7_0#18"
+},
+{
+"i": 88,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p48/d50_1_1#4"
+},
+{
+"i": 89,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p24/d25_7_2#21"
+},
+{
+"i": 90,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p137/d140_7_2#22"
+},
+{
+"i": 91,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p64/d67_2_1#6"
+},
+{
+"i": 92,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p12/d13_1_0#3"
+},
+{
+"i": 93,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 61,
+"perltqa_id": "p59/d61_3_2#11"
+},
+{
+"i": 94,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p84/d87_8_1#24"
+},
+{
+"i": 95,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p132/d135_0_0#0"
+},
+{
+"i": 96,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p88/d91_8_2#21"
+},
+{
+"i": 97,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p40/d42_4_2#12"
+},
+{
+"i": 98,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p61/d63_3_2#10"
+},
+{
+"i": 99,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p10/d11_5_2#14"
+},
+{
+"i": 100,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p75/d78_3_1#10"
+},
+{
+"i": 101,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p19/d20_3_1#10"
+},
+{
+"i": 102,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p89/d92_3_0#8"
+},
+{
+"i": 103,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p95/d98_6_2#16"
+},
+{
+"i": 104,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p65/d68_7_1#19"
+},
+{
+"i": 105,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 5,
+"context_chars": 39,
+"perltqa_id": "p69/d72_7_2#20"
+},
+{
+"i": 106,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 35,
+"perltqa_id": "p80/d83_5_2#16"
+},
+{
+"i": 107,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p139/d142_5_2#16"
+},
+{
+"i": 108,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p45/d47_7_2#20"
+},
+{
+"i": 109,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p39/d41_6_0#18"
+},
+{
+"i": 110,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 42,
+"perltqa_id": "p34/d36_1_0#3"
+},
+{
+"i": 111,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p116/d119_8_2#23"
+},
+{
+"i": 112,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p96/d99_7_1#21"
+},
+{
+"i": 113,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p56/d58_1_2#5"
+},
+{
+"i": 114,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 55,
+"perltqa_id": "p11/d12_7_1#16"
+},
+{
+"i": 115,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 31,
+"perltqa_id": "p29/d31_8_0#21"
+},
+{
+"i": 116,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p52/d54_4_0#9"
+},
+{
+"i": 117,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p80/d83_0_0#0"
+},
+{
+"i": 118,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p5/d6_7_0#17"
+},
+{
+"i": 119,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 31,
+"perltqa_id": "p14/d15_7_0#17"
+},
+{
+"i": 120,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p52/d54_7_2#18"
+},
+{
+"i": 121,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p33/d35_3_0#8"
+},
+{
+"i": 122,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 55,
+"perltqa_id": "p98/d101_8_2#18"
+},
+{
+"i": 123,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p37/d39_5_2#15"
+},
+{
+"i": 124,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 62,
+"perltqa_id": "p43/d45_3_0#9"
+},
+{
+"i": 125,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p110/d113_8_1#25"
+},
+{
+"i": 126,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p5/d6_6_2#16"
+},
+{
+"i": 127,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 27,
+"perltqa_id": "p71/d74_6_0#14"
+},
+{
+"i": 128,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p122/d125_5_2#16"
+},
+{
+"i": 129,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p117/d120_3_0#7"
+},
+{
+"i": 130,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p101/d104_2_1#7"
+},
+{
+"i": 131,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p63/d66_6_2#18"
+},
+{
+"i": 132,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p98/d101_3_0#5"
+},
+{
+"i": 133,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p80/d83_7_2#22"
+},
+{
+"i": 134,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p51/d53_11_1#17"
+},
+{
+"i": 135,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 58,
+"perltqa_id": "p33/d35_6_0#15"
+},
+{
+"i": 136,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p68/d71_13_1#20"
+},
+{
+"i": 137,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p39/d41_0_1#1"
+},
+{
+"i": 138,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p22/d23_7_0#20"
+},
+{
+"i": 139,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p125/d128_7_2#18"
+},
+{
+"i": 140,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p78/d81_4_1#10"
+},
+{
+"i": 141,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 49,
+"perltqa_id": "p117/d120_1_0#2"
+},
+{
+"i": 142,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 23,
+"perltqa_id": "p74/d77_7_3#11"
+},
+{
+"i": 143,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": false,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p128/d131_1_0#2"
+},
+{
+"i": 144,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 54,
+"perltqa_id": "p55/d57_7_0#18"
+},
+{
+"i": 145,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p139/d142_1_2#5"
+},
+{
+"i": 146,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p116/d119_2_0#3"
+},
+{
+"i": 147,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p85/d88_0_0#0"
+},
+{
+"i": 148,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p69/d72_0_0#0"
+},
+{
+"i": 149,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 62,
+"perltqa_id": "p54/d56_4_1#11"
+},
+{
+"i": 150,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 37,
+"perltqa_id": "p133/d136_5_1#13"
+},
+{
+"i": 151,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p48/d50_2_0#6"
+},
+{
+"i": 152,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p3/d4_5_0#11"
+},
+{
+"i": 153,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 43,
+"perltqa_id": "p34/d36_1_1#4"
+},
+{
+"i": 154,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p90/d93_2_1#4"
+},
+{
+"i": 155,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p26/d27_5_0#14"
+},
+{
+"i": 156,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p136/d139_5_1#15"
+},
+{
+"i": 157,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p47/d49_6_0#15"
+},
+{
+"i": 158,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p135/d138_4_0#11"
+},
+{
+"i": 159,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 31,
+"perltqa_id": "p65/d68_1_2#4"
+},
+{
+"i": 160,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 6,
+"context_chars": 58,
+"perltqa_id": "p9/d10_4_2#13"
+},
+{
+"i": 161,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p134/d137_1_2#4"
+},
+{
+"i": 162,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 23,
+"perltqa_id": "p19/d20_7_1#20"
+},
+{
+"i": 163,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p8/d9_2_2#6"
+},
+{
+"i": 164,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p117/d120_0_0#0"
+},
+{
+"i": 165,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 57,
+"perltqa_id": "p0/d1_4_1#12"
+},
+{
+"i": 166,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 34,
+"perltqa_id": "p32/d34_5_2#15"
+},
+{
+"i": 167,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": false,
+"S2": false,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p31/d33_2_2#8"
+},
+{
+"i": 168,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p136/d139_0_0#0"
+},
+{
+"i": 169,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p131/d134_0_1#1"
+},
+{
+"i": 170,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p1/d2_1_1#4"
+},
+{
+"i": 171,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p17/d18_5_0#14"
+},
+{
+"i": 172,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p120/d123_6_0#17"
+},
+{
+"i": 173,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p38/d40_1_2#5"
+},
+{
+"i": 174,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p114/d117_1_1#1"
+},
+{
+"i": 175,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p39/d41_4_2#14"
+},
+{
+"i": 176,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p12/d13_6_0#17"
+},
+{
+"i": 177,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p90/d93_6_0#16"
+},
+{
+"i": 178,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": false,
+"S2": false,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p109/d112_5_1#15"
+},
+{
+"i": 179,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 55,
+"perltqa_id": "p87/d90_3_1#7"
+},
+{
+"i": 180,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p90/d93_2_2#5"
+},
+{
+"i": 181,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p108/d111_6_0#18"
+},
+{
+"i": 182,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p107/d110_4_0#12"
+},
+{
+"i": 183,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p111/d114_6_2#19"
+},
+{
+"i": 184,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p12/d13_7_0#20"
+},
+{
+"i": 185,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p74/d77_11_1#16"
+},
+{
+"i": 186,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 53,
+"perltqa_id": "p84/d87_2_2#8"
+},
+{
+"i": 187,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p19/d20_2_2#8"
+},
+{
+"i": 188,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p137/d140_1_0#3"
+},
+{
+"i": 189,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p47/d49_4_0#12"
+},
+{
+"i": 190,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p16/d17_0_1#1"
+},
+{
+"i": 191,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p130/d133_0_0#0"
+},
+{
+"i": 192,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p63/d66_7_0#19"
+},
+{
+"i": 193,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p73/d76_13_1#19"
+},
+{
+"i": 194,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p61/d63_5_0#13"
+},
+{
+"i": 195,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p36/d38_1_2#5"
+},
+{
+"i": 196,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p76/d79_3_0#2"
+},
+{
+"i": 197,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p43/d45_4_0#12"
+},
+{
+"i": 198,
+"source": "dialogue",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p7/d8_4_1#12"
+},
+{
+"i": 199,
+"source": "dialogue",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p1/d2_4_2#13"
+},
+{
+"i": 200,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": false,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p131/e134_2_1"
+},
+{
+"i": 201,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p25/e26_7_2"
+},
+{
+"i": 202,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p10/e11_6_1"
+},
+{
+"i": 203,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p17/e18_2_1"
+},
+{
+"i": 204,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p64/e67_6_2"
+},
+{
+"i": 205,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p62/e65_6_2"
+},
+{
+"i": 206,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p80/e83_2_0"
+},
+{
+"i": 207,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p134/e137_7_1"
+},
+{
+"i": 208,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p94/e97_7_2"
+},
+{
+"i": 209,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p50/e52_4_0"
+},
+{
+"i": 210,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p17/e18_3_1"
+},
+{
+"i": 211,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p10/e11_8_1"
+},
+{
+"i": 212,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p93/e96_7_1"
+},
+{
+"i": 213,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p51/e53_9_0"
+},
+{
+"i": 214,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 18,
+"perltqa_id": "p10/e11_1_1"
+},
+{
+"i": 215,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 61,
+"perltqa_id": "p90/e93_7_2"
+},
+{
+"i": 216,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p92/e95_0_0"
+},
+{
+"i": 217,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p99/e102_6_0"
+},
+{
+"i": 218,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p12/e13_5_0"
+},
+{
+"i": 219,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p16/e17_0_3"
+},
+{
+"i": 220,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p66/e69_0_0"
+},
+{
+"i": 221,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p93/e96_6_2"
+},
+{
+"i": 222,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p64/e67_2_0"
+},
+{
+"i": 223,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p136/e139_5_2"
+},
+{
+"i": 224,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p11/e12_0_1"
+},
+{
+"i": 225,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p113/e116_6_1"
+},
+{
+"i": 226,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p84/e87_1_1"
+},
+{
+"i": 227,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p127/e130_6_1"
+},
+{
+"i": 228,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p116/e119_8_3"
+},
+{
+"i": 229,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p91/e94_8_0"
+},
+{
+"i": 230,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p92/e95_1_1"
+},
+{
+"i": 231,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 33,
+"perltqa_id": "p63/e66_8_0"
+},
+{
+"i": 232,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p47/e49_2_2"
+},
+{
+"i": 233,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p13/e14_0_1"
+},
+{
+"i": 234,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 37,
+"perltqa_id": "p11/e12_2_2"
+},
+{
+"i": 235,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p68/e71_5_2"
+},
+{
+"i": 236,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p13/e14_7_1"
+},
+{
+"i": 237,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p90/e93_8_0"
+},
+{
+"i": 238,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p80/e83_7_1"
+},
+{
+"i": 239,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p92/e95_2_2"
+},
+{
+"i": 240,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 57,
+"perltqa_id": "p76/e79_6_2"
+},
+{
+"i": 241,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p18/e19_4_2"
+},
+{
+"i": 242,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p98/e101_7_1"
+},
+{
+"i": 243,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p0/e1_4_1"
+},
+{
+"i": 244,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 43,
+"perltqa_id": "p7/e8_0_0"
+},
+{
+"i": 245,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 4,
+"context_chars": 8,
+"perltqa_id": "p104/e107_6_1"
+},
+{
+"i": 246,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 29,
+"perltqa_id": "p29/e31_5_1"
+},
+{
+"i": 247,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p74/e77_13_2"
+},
+{
+"i": 248,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p52/e54_1_1"
+},
+{
+"i": 249,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p14/e15_6_2"
+},
+{
+"i": 250,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p73/e76_0_2"
+},
+{
+"i": 251,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 33,
+"perltqa_id": "p4/e5_2_0"
+},
+{
+"i": 252,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": false,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 10,
+"perltqa_id": "p140/e143_9_1"
+},
+{
+"i": 253,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p105/e108_4_0"
+},
+{
+"i": 254,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p45/e47_2_0"
+},
+{
+"i": 255,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p109/e112_0_1"
+},
+{
+"i": 256,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p69/e72_3_1"
+},
+{
+"i": 257,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p51/e53_7_0"
+},
+{
+"i": 258,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p137/e140_1_3"
+},
+{
+"i": 259,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 13,
+"perltqa_id": "p38/e40_1_0"
+},
+{
+"i": 260,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p30/e32_6_2"
+},
+{
+"i": 261,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p89/e92_4_1"
+},
+{
+"i": 262,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p133/e136_6_0"
+},
+{
+"i": 263,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 62,
+"perltqa_id": "p78/e81_7_1"
+},
+{
+"i": 264,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 4,
+"context_chars": 64,
+"perltqa_id": "p12/e13_3_1"
+},
+{
+"i": 265,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 4,
+"context_chars": 30,
+"perltqa_id": "p135/e138_0_0"
+},
+{
+"i": 266,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 11,
+"context_chars": 59,
+"perltqa_id": "p73/e76_7_1"
+},
+{
+"i": 267,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p8/e9_0_2"
+},
+{
+"i": 268,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p135/e138_3_1"
+},
+{
+"i": 269,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p77/e80_0_1"
+},
+{
+"i": 270,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p29/e31_7_0"
+},
+{
+"i": 271,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p46/e48_4_2"
+},
+{
+"i": 272,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p72/e75_3_1"
+},
+{
+"i": 273,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p72/e75_2_0"
+},
+{
+"i": 274,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p69/e72_1_1"
+},
+{
+"i": 275,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p13/e14_8_1"
+},
+{
+"i": 276,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p91/e94_0_1"
+},
+{
+"i": 277,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p74/e77_6_0"
+},
+{
+"i": 278,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p96/e99_0_0"
+},
+{
+"i": 279,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p117/e120_0_0"
+},
+{
+"i": 280,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 11,
+"context_chars": 62,
+"perltqa_id": "p99/e102_6_1"
+},
+{
+"i": 281,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p109/e112_4_1"
+},
+{
+"i": 282,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p132/e135_3_1"
+},
+{
+"i": 283,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p94/e97_5_1"
+},
+{
+"i": 284,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 29,
+"perltqa_id": "p42/e44_6_2"
+},
+{
+"i": 285,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p45/e47_6_1"
+},
+{
+"i": 286,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 53,
+"perltqa_id": "p0/e1_4_2"
+},
+{
+"i": 287,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p105/e108_2_2"
+},
+{
+"i": 288,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p92/e95_3_0"
+},
+{
+"i": 289,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 10,
+"context_chars": 19,
+"perltqa_id": "p67/e70_0_0"
+},
+{
+"i": 290,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p127/e130_1_1"
+},
+{
+"i": 291,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 9,
+"context_chars": 58,
+"perltqa_id": "p53/e55_7_2"
+},
+{
+"i": 292,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p92/e95_4_0"
+},
+{
+"i": 293,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p15/e16_7_0"
+},
+{
+"i": 294,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 53,
+"perltqa_id": "p26/e27_3_2"
+},
+{
+"i": 295,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 41,
+"perltqa_id": "p46/e48_7_0"
+},
+{
+"i": 296,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p86/e89_2_1"
+},
+{
+"i": 297,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p108/e111_1_1"
+},
+{
+"i": 298,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 47,
+"perltqa_id": "p11/e12_5_2"
+},
+{
+"i": 299,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 18,
+"perltqa_id": "p38/e40_5_0"
+},
+{
+"i": 300,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p70/e73_6_1"
+},
+{
+"i": 301,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p27/e28_3_2"
+},
+{
+"i": 302,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p127/e130_7_2"
+},
+{
+"i": 303,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p79/e82_3_0"
+},
+{
+"i": 304,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 47,
+"perltqa_id": "p72/e75_3_0"
+},
+{
+"i": 305,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p109/e112_3_1"
+},
+{
+"i": 306,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p86/e89_5_1"
+},
+{
+"i": 307,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p77/e80_7_1"
+},
+{
+"i": 308,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p135/e138_6_0"
+},
+{
+"i": 309,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p24/e25_6_0"
+},
+{
+"i": 310,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p110/e113_5_1"
+},
+{
+"i": 311,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p117/e120_7_1"
+},
+{
+"i": 312,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p71/e74_1_0"
+},
+{
+"i": 313,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p25/e26_8_2"
+},
+{
+"i": 314,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p20/e21_7_0"
+},
+{
+"i": 315,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p42/e44_3_1"
+},
+{
+"i": 316,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 64,
+"perltqa_id": "p99/e102_7_0"
+},
+{
+"i": 317,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p133/e136_3_2"
+},
+{
+"i": 318,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 50,
+"perltqa_id": "p11/e12_4_2"
+},
+{
+"i": 319,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p42/e44_3_2"
+},
+{
+"i": 320,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 16,
+"context_chars": 42,
+"perltqa_id": "p104/e107_7_1"
+},
+{
+"i": 321,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 25,
+"perltqa_id": "p112/e115_6_0"
+},
+{
+"i": 322,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 64,
+"perltqa_id": "p101/e104_1_1"
+},
+{
+"i": 323,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p16/e17_10_1"
+},
+{
+"i": 324,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p130/e133_1_2"
+},
+{
+"i": 325,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p56/e58_2_2"
+},
+{
+"i": 326,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p94/e97_2_0"
+},
+{
+"i": 327,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 9,
+"context_chars": 18,
+"perltqa_id": "p118/e121_6_0"
+},
+{
+"i": 328,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 48,
+"perltqa_id": "p111/e114_0_1"
+},
+{
+"i": 329,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p107/e110_3_2"
+},
+{
+"i": 330,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p58/e60_3_1"
+},
+{
+"i": 331,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p103/e106_3_0"
+},
+{
+"i": 332,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 5,
+"context_chars": 64,
+"perltqa_id": "p65/e68_6_2"
+},
+{
+"i": 333,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 21,
+"perltqa_id": "p105/e108_2_1"
+},
+{
+"i": 334,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p93/e96_1_1"
+},
+{
+"i": 335,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p109/e112_5_2"
+},
+{
+"i": 336,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 15,
+"perltqa_id": "p62/e65_0_2"
+},
+{
+"i": 337,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p129/e132_5_1"
+},
+{
+"i": 338,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 64,
+"perltqa_id": "p33/e35_0_1"
+},
+{
+"i": 339,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p133/e136_6_1"
+},
+{
+"i": 340,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p37/e39_0_1"
+},
+{
+"i": 341,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 16,
+"perltqa_id": "p130/e133_7_0"
+},
+{
+"i": 342,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p118/e121_0_2"
+},
+{
+"i": 343,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p11/e12_5_1"
+},
+{
+"i": 344,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 64,
+"perltqa_id": "p87/e90_7_2"
+},
+{
+"i": 345,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 6,
+"context_chars": 64,
+"perltqa_id": "p98/e101_10_2"
+},
+{
+"i": 346,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 11,
+"context_chars": 64,
+"perltqa_id": "p47/e49_1_1"
+},
+{
+"i": 347,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 16,
+"perltqa_id": "p71/e74_7_1"
+},
+{
+"i": 348,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 8,
+"context_chars": 64,
+"perltqa_id": "p89/e92_2_1"
+},
+{
+"i": 349,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 12,
+"context_chars": 40,
+"perltqa_id": "p24/e25_5_1"
+},
+{
+"i": 350,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p92/e95_5_0"
+},
+{
+"i": 351,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": false,
+"S2": false,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 14,
+"context_chars": 64,
+"perltqa_id": "p34/e36_2_0"
+},
+{
+"i": 352,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p76/e79_17_2"
+},
+{
+"i": 353,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 20,
+"perltqa_id": "p46/e48_2_0"
+},
+{
+"i": 354,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": false,
+"S1_noctx": true,
+"S2_noctx": false
+},
+"ref_chars": 10,
+"context_chars": 64,
+"perltqa_id": "p117/e120_0_1"
+},
+{
+"i": 355,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 15,
+"context_chars": 64,
+"perltqa_id": "p30/e32_7_2"
+},
+{
+"i": 356,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 7,
+"context_chars": 60,
+"perltqa_id": "p40/e42_4_0"
+},
+{
+"i": 357,
+"source": "narrative",
+"correct": {
+"libime": true,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p15/e16_3_0"
+},
+{
+"i": 358,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": false,
+"S2": false,
+"S1_noctx": false,
+"S2_noctx": false
+},
+"ref_chars": 12,
+"context_chars": 14,
+"perltqa_id": "p34/e36_4_0"
+},
+{
+"i": 359,
+"source": "narrative",
+"correct": {
+"libime": false,
+"S1": true,
+"S2": true,
+"S1_noctx": true,
+"S2_noctx": true
+},
+"ref_chars": 13,
+"context_chars": 64,
+"perltqa_id": "p39/e41_6_0"
+}
+],
+"ms": {
+"S1": [
+436.6522150230594,
+414.5905770128593,
+548.4757859958336,
+285.40114796487615,
+204.2187390034087,
+393.24308396317065,
+216.48915304103866,
+109.21248403610662,
+127.78583500767127,
+492.7978229825385,
+80.70828899508342,
+285.1016779895872,
+279.66862998437136,
+261.61659602075815,
+249.47041098494083,
+284.52966595068574,
+138.41858104569837,
+269.3137039896101,
+423.17768500652164,
+264.87979001831263,
+391.653047001455,
+276.959104987327,
+128.43999499455094,
+134.76353196892887,
+270.2344850404188,
+123.65187401883304,
+259.039947995916,
+241.39477696735412,
+249.63027198100463,
+126.67374400189146,
+383.0542599898763,
+265.3847589972429,
+285.6474709697068,
+144.49146104743704,
+547.6026780088432,
+104.23091700067744,
+289.53277796972543,
+253.25158901978284,
+407.33299002749845,
+244.35708101373166,
+128.23826703242958,
+260.96657902235165,
+68.61855497118086,
+137.1909329900518,
+379.84824704471976,
+292.1898950007744,
+129.11417696159333,
+373.7649959512055,
+116.21346598258242,
+64.90482401568443,
+287.30496403295547,
+409.8523290012963,
+440.7104339916259,
+261.50101801613346,
+134.95821703691036,
+535.5247560073622,
+144.33491800446063,
+531.3708200119436,
+567.637879983522,
+280.6190230185166,
+142.17133400961757,
+213.65275495918468,
+263.9333250117488,
+284.09351903246716,
+267.1318939537741,
+259.3326100031845,
+273.07875198312104,
+250.70480501744896,
+71.36241503758356,
+135.56011696346104,
+253.21121502202004,
+137.03850703313947,
+254.48634003987536,
+254.8650210374035,
+259.2365790042095,
+132.53264501690865,
+124.82170399744064,
+492.29174898937345,
+408.1348580075428,
+284.24121998250484,
+128.45796602778137,
+381.68314297217876,
+391.0613850457594,
+196.48510997649282,
+273.36161595303565,
+235.5908469762653,
+427.14643495855853,
+105.70793901570141,
+256.71849102946,
+246.14624201785773,
+409.0601739590056,
+246.06567999580875,
+129.5075140078552,
+240.51873298594728,
+116.64723005378619,
+413.6485100025311,
+261.1482619540766,
+412.65082301106304,
+287.1432849788107,
+272.64454803662375,
+265.53210598649457,
+134.23119601793587,
+403.8730059983209,
+295.6834360375069,
+441.8538080062717,
+148.5730469576083,
+145.8947400096804,
+261.05652697151527,
+125.02636201679707,
+245.54090201854706,
+237.72465903311968,
+275.90979798696935,
+291.28090996528044,
+142.83724303822964,
+245.52523798774928,
+68.94782301969826,
+289.21201202319935,
+989.0929569955915,
+438.3988219778985,
+162.37593500409275,
+140.2512220083736,
+271.3946560397744,
+349.13052699994296,
+143.67777801817283,
+292.74896503193304,
+388.83217104012147,
+487.35897697042674,
+173.3373730094172,
+263.1084910244681,
+402.82152500003576,
+250.41331205284223,
+127.43291101651266,
+389.60954296635464,
+139.8815599968657,
+132.3223410290666,
+233.53388399118558,
+274.2243129760027,
+548.1796000385657,
+141.20565401390195,
+236.2172969733365,
+285.6507319957018,
+113.47184597980231,
+73.63490498391911,
+298.47219301154837,
+198.1121510034427,
+275.0115749659017,
+279.2543150135316,
+255.01945801079273,
+134.51801700284705,
+129.52087499434128,
+151.6949730576016,
+265.0097989826463,
+283.8102010427974,
+196.02001301245764,
+135.42010902892798,
+542.6439750008285,
+252.0018020295538,
+287.07158198812976,
+361.19637300726026,
+142.15444697765633,
+233.9514860068448,
+270.3754279646091,
+92.45394001482055,
+258.394020027481,
+267.7971899975091,
+129.92404197575524,
+297.8971209959127,
+285.0191770121455,
+265.7672109780833,
+133.81398195633665,
+281.4918490475975,
+277.1637819823809,
+275.2182999975048,
+260.0031729671173,
+261.8087529554032,
+287.1249600430019,
+135.029299010057,
+290.2307910262607,
+143.15794495632872,
+224.5367499999702,
+273.9206929691136,
+259.3528529978357,
+257.11726397275925,
+129.84553701244295,
+145.2727239811793,
+434.65934798587114,
+326.25585596542805,
+280.533637967892,
+272.7633129688911,
+420.9504710161127,
+219.83360301237553,
+131.50637602666393,
+427.07971995696425,
+586.2687680055387,
+131.48594397353008,
+234.5019499771297,
+272.6598280132748,
+260.20162500208244,
+137.71458400879055,
+266.66466903407127,
+289.48724101064727,
+435.63162500504404,
+124.37423801748082,
+128.46228398848325,
+281.6684159915894,
+267.0857039629482,
+384.10910102538764,
+136.16354000987485,
+203.2428509555757,
+439.9137279833667,
+274.793912016321,
+138.26850801706314,
+271.4195779990405,
+120.91103999409825,
+183.8486130000092,
+374.6241829940118,
+368.8620250322856,
+134.30504500865936,
+289.76364800473675,
+133.3617260097526,
+273.2078680419363,
+441.0970119643025,
+241.42731598112732,
+132.35369499307126,
+130.38623303873464,
+284.0092239785008,
+260.2179909590632,
+435.22671901155263,
+267.6602799911052,
+398.80351803731173,
+288.8687039958313,
+76.99193601729348,
+543.8336769584566,
+255.39207801921293,
+160.38003796711564,
+434.72174694761634,
+134.8882659804076,
+268.34642904577777,
+228.65332901710644,
+415.2680929983035,
+238.19555202499032,
+242.4701699637808,
+347.7619090117514,
+124.97050198726356,
+190.23188803112134,
+41.32037202361971,
+64.16770198848099,
+275.70719801587984,
+226.84270096942782,
+409.86157598672435,
+401.35740395635366,
+146.02846099296585,
+43.540181999560446,
+247.8695610188879,
+237.10007197223604,
+421.29183502402157,
+283.4723539999686,
+251.83615199057385,
+254.2855450301431,
+85.45983996009454,
+132.38957297289744,
+415.19300296204165,
+256.27389102010056,
+261.0039749997668,
+360.4120229720138,
+57.069236994720995,
+242.93452297570184,
+421.4881830266677,
+207.44412095518783,
+263.59997800318524,
+266.3331949734129,
+395.83266200497746,
+404.81709799496457,
+125.55084499763325,
+271.222094015684,
+403.82294403389096,
+122.57116299588233,
+266.57304097898304,
+265.4842589981854,
+268.1657269713469,
+370.24139700224623,
+405.13448999263346,
+117.28906899224967,
+267.76483899448067,
+151.76448301644996,
+238.1511089624837,
+230.39209301350638,
+253.96662397542968,
+136.6723840474151,
+53.90605598222464,
+132.7527069952339,
+233.02355100167915,
+265.23902599001303,
+262.8708220436238,
+100.90679698623717,
+190.0488210376352,
+257.01374298660085,
+417.33900498365983,
+223.4673239872791,
+122.4808199913241,
+226.35428595822304,
+272.37260597757995,
+130.56123501155525,
+283.2583910203539,
+342.24102803273126,
+260.85745298769325,
+142.47319102287292,
+266.38215698767453,
+138.76522600185126,
+385.9183639870025,
+276.4308269834146,
+406.8086899933405,
+137.6408829819411,
+276.97607199661434,
+144.47652600938454,
+130.74775197310373,
+143.5331969987601,
+430.70329702459276,
+310.47096400288865,
+126.07126496732235,
+97.78509999159724,
+73.45557597000152,
+260.5348579818383,
+266.9184219557792,
+139.95688897557557,
+248.57916397741064,
+281.90587903372943,
+51.90648097777739,
+98.06665504584089,
+262.1409620041959,
+282.6479619834572,
+278.3880149945617,
+375.2777869813144,
+118.25317097827792,
+139.1901519964449,
+278.08904502307996,
+174.4014960131608,
+416.311795997899,
+127.55358702270314,
+526.4188969740644,
+135.01603301847354,
+60.40393194416538,
+137.7374459989369,
+286.7710950085893,
+282.36766799818724,
+379.9998539616354,
+414.4430279848166,
+181.81567802093923,
+260.2172460174188,
+285.40026902919635,
+427.03941999934614,
+141.65388402761891,
+258.56178702088073,
+63.68288997327909,
+273.89493596274406,
+288.86148799210787,
+243.49856202024966,
+286.4022990106605,
+100.45476304367185,
+279.7314070048742
+],
+"S2": [
+4191.885414009448,
+7547.712768020574,
+5644.137185008731,
+4226.182661019266,
+1777.3697740049101,
+2314.7284999722615,
+2561.014239967335,
+657.1292279986665,
+1450.2516750362702,
+2932.4273510137573,
+2383.635656966362,
+2927.10122797871,
+3281.6845669876784,
+2289.9292670190334,
+1467.056111956481,
+5202.085383993108,
+6721.179004991427,
+4023.600394022651,
+5988.669070997275,
+4723.458844993729,
+2252.6974829961546,
+5850.649691012222,
+740.6634420040064,
+7621.603488980327,
+4804.786017979495,
+1471.6614490025677,
+3141.669008997269,
+1439.4296339596622,
+3718.583078996744,
+1586.8678509723395,
+3749.9830090091564,
+2344.8484069667757,
+7987.986630003434,
+2609.4720310065895,
+4921.552816987969,
+1860.4631829657592,
+2579.9291799776256,
+3756.7308269790374,
+4041.108284960501,
+2147.8163140127435,
+3101.556089008227,
+2306.525028019678,
+1369.5207519922405,
+2504.814275947865,
+3780.582779960241,
+7984.837858995888,
+3082.1015689871274,
+2178.894873999525,
+2056.080477021169,
+1073.492957977578,
+287.32529003173113,
+3093.922793981619,
+8029.5085340039805,
+4681.015926995315,
+787.2996929800138,
+5591.118269017898,
+4329.989235964604,
+3049.4715940440074,
+6666.096828004811,
+5045.954138040543,
+4379.149466985837,
+3907.7808230067603,
+4030.561689985916,
+4263.80432699807,
+3995.3843409894034,
+4683.198793034535,
+4081.1609409865923,
+2977.4753960082307,
+810.1461810292676,
+794.1824070294388,
+3905.483584967442,
+794.3335429881699,
+4617.743527051061,
+3838.1897200015374,
+4680.383403028827,
+3866.652995988261,
+3013.4504759917036,
+2914.828545995988,
+4075.7479629828595,
+4168.253721029032,
+4589.682833990082,
+2939.569939044304,
+3787.749796989374,
+2916.975180967711,
+6550.09755003266,
+2745.477831980679,
+2365.4961209977046,
+920.6290849833749,
+5421.257849957328,
+2958.0905999755487,
+2329.1303029982373,
+2935.9976669657044,
+744.5827670162544,
+2960.1704840315506,
+2072.3461430170573,
+4864.052998018451,
+3027.0192500320263,
+5728.605429001618,
+3408.8316219858825,
+5011.663261975627,
+3108.223662013188,
+5689.572166011203,
+4008.1379609764554,
+5291.125589050353,
+3246.6123590129428,
+1356.0316090006381,
+1792.4260789877735,
+6372.966365946922,
+2267.7915709791705,
+2911.675800976809,
+1877.8105179662816,
+2386.754931998439,
+5331.142824026756,
+4350.397446949501,
+3757.4405320337974,
+384.6955340122804,
+4290.15337198507,
+5620.204412029125,
+3439.897142990958,
+2416.1578029743396,
+2455.479460011702,
+4334.175707015675,
+3525.275897991378,
+1684.4036899856292,
+6066.690191975795,
+3023.1664970051497,
+2915.296659048181,
+2751.799696998205,
+4531.220703036524,
+2335.9305469784886,
+2957.5360520393588,
+3147.842400998343,
+3059.2449409887195,
+6113.055949972477,
+3167.8694959846325,
+2741.354717989452,
+3338.899895956274,
+9421.648844960146,
+3425.8099630242214,
+2745.6064440193586,
+5273.980760015547,
+3124.6806450071745,
+2116.5081139770336,
+5329.009968962055,
+4700.55405999301,
+2405.070009001065,
+3321.12518500071,
+3892.02866301639,
+6597.04702795716,
+3069.808796979487,
+1307.5864929705858,
+5619.209754979238,
+2552.116060978733,
+2901.8039740039967,
+768.9158720313571,
+4111.019982025027,
+4767.68432604149,
+4276.860433048569,
+2106.275794969406,
+2990.0712079834193,
+3476.6141889849678,
+7304.318408016115,
+802.2490739822388,
+3068.8946210430004,
+7374.075635976624,
+6382.7523429645225,
+2576.606068003457,
+5775.6339920451865,
+3935.910327010788,
+785.9349060454406,
+4153.653579996899,
+3084.288058045786,
+4134.873126982711,
+2308.2563300267793,
+4718.608914990909,
+7045.175886014476,
+2422.3725750343874,
+2583.193495986052,
+4354.941855010111,
+1333.8763989740983,
+4958.9557140134275,
+2923.9832480088808,
+1531.5635820152238,
+2265.48807596555,
+5400.050414027646,
+3550.8673769654706,
+2543.2069370290264,
+4134.5296269864775,
+3297.5661960081197,
+5936.399111989886,
+1964.1944409813732,
+753.1519549665973,
+2510.202292003669,
+4268.124744005036,
+2306.645593023859,
+2674.3400229606777,
+4161.6242619929835,
+2891.6975730098784,
+799.1673669894226,
+3164.010711014271,
+2570.813669997733,
+3428.5979859996587,
+2197.7401460171677,
+725.4362080129795,
+2489.2945229657926,
+8151.810412993655,
+3789.732411969453,
+4068.8234959961846,
+6215.373113984242,
+4305.224464973435,
+6695.798009983264,
+3298.4517889562994,
+2463.300182018429,
+703.924378962256,
+1324.3781419587322,
+4464.520982000977,
+2880.76120702317,
+2389.739484002348,
+6197.154638997745,
+1590.535570983775,
+4105.424067995045,
+6118.727737979498,
+2125.7990180165507,
+3122.6921209599823,
+4715.599317045417,
+3374.6006060391665,
+3049.4149660225958,
+6028.091166052036,
+2412.4046829529107,
+7082.716955977958,
+2504.948168992996,
+2692.2370420070365,
+5759.90941998316,
+4575.519137957599,
+2389.6620710147545,
+2569.746266992297,
+3181.432708981447,
+5391.710967000108,
+1966.8122010189109,
+2358.854532998521,
+3473.2344999792986,
+2098.6709620337933,
+5347.397088014986,
+1445.5107619869523,
+3892.4488269840367,
+224.35108601348475,
+1792.5401559914462,
+4021.2785199983045,
+2638.434501015581,
+3952.755757025443,
+5456.260037026368,
+1264.641190005932,
+1647.8396079619415,
+5801.308714027982,
+2732.702053966932,
+4088.9511079876684,
+6598.827453039121,
+2169.865854026284,
+2917.4617099924944,
+1711.2418630276807,
+6276.0556290159,
+3164.809293986764,
+5251.90371699864,
+3822.832665988244,
+2730.207006970886,
+1276.7153300228529,
+2092.234965006355,
+4850.940803007688,
+2392.3099790117703,
+3035.1546200108714,
+3092.798074998427,
+5298.637930012774,
+3848.6859340337105,
+4421.194396039937,
+6316.298066987656,
+5412.840242031962,
+3594.6634599822573,
+2280.321053985972,
+3050.032184983138,
+2301.3548380113207,
+4929.220637015533,
+4649.540384998545,
+2752.5843580369838,
+4658.187592984177,
+3140.965099039022,
+2790.7267970149405,
+2659.7129870206118,
+2169.9907520087436,
+4028.573723975569,
+1805.4121769964695,
+3109.7827879711986,
+2676.895904005505,
+10092.4470309983,
+6384.223514003679,
+1182.7472029835917,
+4010.9272219706327,
+4697.769155027345,
+5894.349907990545,
+2549.8137330287136,
+1846.0309199872427,
+1999.7692839824595,
+5851.002867973875,
+2325.440159009304,
+4922.813571989536,
+4108.438509982079,
+3946.8978700460866,
+6230.304290016647,
+3876.9325399771333,
+2493.801172997337,
+3675.0112090376206,
+5776.923916011583,
+3149.6151169994846,
+3333.8092060294002,
+8527.830669947434,
+3455.597741995007,
+3143.2320599560626,
+1684.6038610092364,
+3392.7244020160288,
+4359.892259992193,
+1484.3126510386355,
+4087.69921498606,
+2153.6445939564146,
+3918.8893039827235,
+3262.966656999197,
+12385.429963003844,
+2930.375481955707,
+2485.2630700333975,
+1819.8748250142671,
+2902.887455013115,
+3088.896672008559,
+5993.470542016439,
+6942.549213010352,
+3751.3290640199557,
+1396.4444019948132,
+3179.637683031615,
+4063.9427240239456,
+2194.8259999626316,
+4085.653825022746,
+3811.579073953908,
+3834.508170024492,
+4857.6537480112165,
+996.9144879723899,
+4213.955206039827,
+2511.60109200282,
+4096.693622006569,
+3135.403835971374,
+3237.770388019271,
+1614.0491409460083,
+3041.7597939958796,
+3571.9214850105345,
+6115.376238012686,
+1605.3961549769156,
+4845.055973972194,
+2533.140180981718,
+4927.184988977388,
+2517.2488020034507,
+2156.663589004893,
+5062.427023018245,
+1802.1779999835417,
+5219.150229997467
+],
+"S1_noctx": [
+69.21393697848544,
+84.37362901167944,
+90.1190799777396,
+60.57169398991391,
+50.49668299034238,
+59.378814010415226,
+28.543517051730305,
+32.540652027819306,
+15.945047955028713,
+49.39311003545299,
+27.612273988779634,
+57.86548199830577,
+56.42507696757093,
+44.231778010725975,
+29.081516957376152,
+64.20133297797292,
+30.916579999029636,
+50.92749703908339,
+90.03723104251549,
+44.73722603870556,
+53.74953901628032,
+53.602971020154655,
+20.523401035461575,
+26.59473300445825,
+48.09937300160527,
+18.333540996536613,
+36.814032995607704,
+27.03443297650665,
+31.401783984620124,
+19.604480999987572,
+42.42242802865803,
+45.26911600260064,
+56.808434950653464,
+35.827254003379494,
+102.47003700351343,
+62.17143498361111,
+64.91402501706034,
+33.89178297948092,
+68.44727497082204,
+28.76585500780493,
+25.040957960300148,
+44.52248301822692,
+15.429088962264359,
+32.84337400691584,
+44.83365797204897,
+65.15997304813936,
+24.95796896982938,
+39.88742100773379,
+45.79085303703323,
+36.2165910191834,
+63.60869196942076,
+64.01793897384778,
+102.63973596738651,
+40.978912031278014,
+29.331770027056336,
+84.36617703409865,
+36.28877300070599,
+77.8657520422712,
+122.44628596818075,
+56.90612498437986,
+36.19673603679985,
+63.918821047991514,
+45.97187502076849,
+60.830617032479495,
+45.85380299249664,
+40.30629596672952,
+48.29634801717475,
+33.4921790054068,
+16.732665011659265,
+27.08264294778928,
+40.874620026443154,
+31.522656965535134,
+37.81072696438059,
+39.9162809480913,
+39.80130102718249,
+21.932104020379484,
+17.559878004249185,
+51.39806604711339,
+71.25320303020999,
+59.28274802863598,
+19.549854041542858,
+38.91273000044748,
+52.63376998482272,
+52.14815598446876,
+51.42169899772853,
+50.784079008735716,
+82.75730203604326,
+34.53673701733351,
+36.254273960366845,
+28.0306949862279,
+68.26221797382459,
+27.96376502374187,
+21.611105010379106,
+30.095527006778866,
+19.17389704613015,
+73.95554101094604,
+35.34786100499332,
+67.33301799977198,
+62.61607096530497,
+54.39362704055384,
+42.82322898507118,
+24.263305007480085,
+67.1445740154013,
+67.61013000505045,
+97.75362000800669,
+31.393218028824776,
+27.762932993937284,
+41.20688099646941,
+16.806343977805227,
+27.52639597747475,
+44.64826500043273,
+55.02242501825094,
+66.8052930268459,
+34.79237499414012,
+56.010289990808815,
+17.075522046070546,
+64.49237099150196,
+137.2523860190995,
+92.73732802830637,
+60.43127703014761,
+30.33968497766182,
+49.885759013704956,
+78.74588400591165,
+35.757778969127685,
+65.22919895360246,
+54.96897199191153,
+53.308345028199255,
+59.13759395480156,
+33.41923898551613,
+64.66870498843491,
+28.957513975910842,
+24.833517032675445,
+52.88971902336925,
+31.078117026481777,
+27.96909201424569,
+34.26219604443759,
+52.714431018102914,
+102.68340003676713,
+32.844206027220935,
+48.33048698492348,
+58.24395699892193,
+28.99901499040425,
+36.73348802840337,
+68.37666797218844,
+44.44711399264634,
+57.01613600831479,
+57.08010902162641,
+37.60890197008848,
+27.987310953903943,
+30.444858013652265,
+28.069027001038194,
+42.56915801670402,
+64.91554802050814,
+51.814658974763006,
+22.725343005731702,
+94.99331202823669,
+35.20765097346157,
+62.951494997832924,
+54.421312001068145,
+41.3671059650369,
+34.53950700350106,
+47.748320968821645,
+27.12371200323105,
+41.06650303583592,
+47.631327994167805,
+34.24754802836105,
+65.9760840353556,
+55.03146897535771,
+44.32304500369355,
+27.62881899252534,
+51.216360996477306,
+64.45399002404884,
+55.33255299087614,
+51.3606839813292,
+54.571762040723115,
+62.39909800933674,
+27.484435006044805,
+65.52540900884196,
+34.332017006818205,
+39.01806502835825,
+50.518496020231396,
+26.433810009621084,
+44.70671998569742,
+19.689894979819655,
+36.5879749879241,
+97.97303704544902,
+49.8664120095782,
+49.08223502570763,
+54.430140007752925,
+82.00140699045733,
+38.121687015518546,
+24.31403996888548,
+90.72976699098945,
+96.38723998796195,
+22.226397995837033,
+49.40052703022957,
+53.31510800169781,
+35.69058497669175,
+29.35032401001081,
+44.18517299927771,
+62.38913000561297,
+91.48790105246007,
+19.091628957539797,
+17.846719012595713,
+55.91296398779377,
+47.953376022633165,
+47.974206041544676,
+25.427268992643803,
+48.10745205031708,
+115.54810998495668,
+54.06503000995144,
+28.670526982750744,
+54.96549804229289,
+28.500540007371455,
+77.09387299837545,
+74.42568498663604,
+37.71383699495345,
+27.687891968525946,
+65.43504301225767,
+26.632778986822814,
+53.85044700233266,
+92.58760104421526,
+56.844201986677945,
+24.016943003516644,
+23.36439403006807,
+60.04165700869635,
+38.253180973697454,
+93.5142359812744,
+51.88361997716129,
+77.09948404226452,
+63.48260899540037,
+23.358957027085125,
+94.70939397579059,
+37.88330598035827,
+47.675690962933004,
+92.42108301259577,
+34.512657031882554,
+48.477624950464815,
+50.6165039842017,
+87.66093896701932,
+50.58922205353156,
+59.71759598469362,
+78.24171002721414,
+21.670149988494813,
+51.06179503491148,
+25.457677023950964,
+17.765144002623856,
+59.734534996096045,
+25.589823024347425,
+84.40002700081095,
+74.16274398565292,
+41.34706099284813,
+26.614830014295876,
+44.349075003992766,
+25.11524601140991,
+94.27798300748691,
+62.856882985215634,
+38.33375795511529,
+38.63794798962772,
+44.7420830023475,
+27.955402969382703,
+87.6475740224123,
+44.25168200396001,
+53.3968000090681,
+36.84903000248596,
+13.94667400745675,
+48.27958601526916,
+92.5419139675796,
+56.431097036693245,
+50.70680903736502,
+53.2240709871985,
+69.35704301577061,
+78.08005099650472,
+21.73017500899732,
+56.38758797431365,
+83.33028701599687,
+20.462983986362815,
+50.72098202072084,
+56.451787997502834,
+53.530870005488396,
+69.02456498937681,
+78.10988696292043,
+15.672587032895535,
+53.06848097825423,
+60.57229399448261,
+64.65974694583565,
+53.7106060073711,
+38.28694298863411,
+33.262921031564474,
+24.49248603079468,
+27.979656995739788,
+40.96858500270173,
+54.22866699518636,
+40.17148003913462,
+26.436282030772418,
+50.625424017198384,
+36.19710396742448,
+81.12801000243053,
+54.362078954000026,
+62.62958201114088,
+50.346117990557104,
+52.36455303383991,
+19.60401004180312,
+52.3998030112125,
+93.02806103369221,
+37.72473498247564,
+33.98245095741004,
+40.81733705243096,
+30.817107006441802,
+44.428604014683515,
+54.333560983650386,
+68.1914400192909,
+29.45026900852099,
+56.50904698995873,
+36.36956796981394,
+24.85773101216182,
+35.46018904307857,
+85.50424297573045,
+49.61738002020866,
+17.73219503229484,
+36.16119601065293,
+32.17106603551656,
+43.28873299527913,
+46.81664297822863,
+31.42350702546537,
+34.41077296156436,
+60.37819804623723,
+24.901421973481774,
+19.29868303705007,
+41.46977001801133,
+60.09753799298778,
+61.340168002061546,
+42.64464904554188,
+50.742135965265334,
+26.26528701512143,
+50.73457601247355,
+76.55812503071502,
+77.64853397384286,
+21.42182900570333,
+74.21664398862049,
+27.716079028323293,
+32.43421099614352,
+30.76396696269512,
+58.903148979879916,
+54.624270007479936,
+47.003114013932645,
+71.36011502007023,
+75.44197596143931,
+42.23366902442649,
+77.84681901102886,
+82.75853795930743,
+30.059775977861136,
+48.08163701090962,
+30.656783026643097,
+47.62745404150337,
+63.77628701739013,
+37.60103200329468,
+56.681115005631,
+76.84061402687803,
+55.628322006668895
+],
+"S2_noctx": [
+644.0154999727383,
+1257.8485190169886,
+913.2984649622813,
+844.7290929616429,
+411.48763796081766,
+322.4688580376096,
+277.36981003545225,
+159.46384199196473,
+155.37445299560204,
+270.88190795620903,
+732.560679956805,
+596.7544440063648,
+620.1819140114821,
+354.1973339742981,
+153.79062801366672,
+1081.382297037635,
+1277.5589040247723,
+676.5922580379993,
+1236.0863839858212,
+709.8625229555182,
+295.1940019847825,
+1029.186338011641,
+98.020450968761,
+1260.1591569837183,
+778.2862319727428,
+155.61288996832445,
+396.42598101636395,
+136.1227529705502,
+399.2417419794947,
+186.55141798080876,
+388.3052800083533,
+356.19191301520914,
+1430.9025159454904,
+559.6498569939286,
+869.9735939735547,
+1010.5338470311835,
+554.3220260296948,
+445.4941509757191,
+636.8461599922739,
+207.69706199644133,
+508.3422510069795,
+369.3425729870796,
+264.4782729912549,
+500.08117500692606,
+399.87585798371583,
+1727.4135050247423,
+506.21269503608346,
+205.35492402268574,
+761.0225999960676,
+562.6701800501905,
+63.46470199059695,
+472.5021450431086,
+1745.03306200495,
+653.1627289950848,
+145.49779001390561,
+833.4449389949441,
+952.8464830364101,
+440.06336998427287,
+1424.8496280051768,
+955.9635989717208,
+924.8393730376847,
+1066.0333660198376,
+645.2680469956249,
+858.9566429727711,
+630.4200969752856,
+657.0807800162584,
+643.499399011489,
+356.8222890025936,
+136.3160119508393,
+140.77548397472128,
+536.1892959917895,
+153.07216200744733,
+593.4641290223226,
+441.97995198192075,
+673.0710939737037,
+546.8860429828055,
+353.15536201233044,
+276.9138609874062,
+683.9036110322922,
+826.4077010098845,
+591.6455700062215,
+275.547134981025,
+488.8674740213901,
+745.9794199676253,
+1111.7706439690664,
+559.3670230009593,
+468.0281149921939,
+264.0932520153001,
+691.5668069850653,
+275.51622298778966,
+386.32519904058427,
+272.62371202232316,
+106.83356900699437,
+314.9156420258805,
+286.12299502128735,
+840.5739130103029,
+357.58853901643306,
+900.6372169824317,
+710.854200005997,
+892.5050389952958,
+467.5723310210742,
+902.441403013654,
+643.2758000446483,
+1145.2048200299032,
+739.3724159919657,
+243.26131399720907,
+317.71213497268036,
+880.2233460010029,
+233.6461510276422,
+276.29452000837773,
+317.0453060301952,
+449.25219198921695,
+1234.2162489658222,
+885.1850990322419,
+801.2191689922474,
+79.9914330127649,
+890.1559649966657,
+776.8972899648361,
+701.1205779854208,
+842.0539450016804,
+467.3654030193575,
+723.0570570100099,
+747.7279030135833,
+370.22596900351346,
+1369.6026270044968,
+398.322177992668,
+278.41734897810966,
+885.2725329925306,
+536.0284970374778,
+363.26347902650014,
+282.13166195200756,
+490.4569589998573,
+400.7084719487466,
+1175.8973759715445,
+525.8536050096154,
+356.1625760048628,
+552.4514749995433,
+1645.7195809925906,
+702.8958110022359,
+513.2113329600543,
+1005.0538970390335,
+794.7412129724398,
+943.8800800126046,
+1142.1751650050282,
+991.2273520021699,
+468.9109190367162,
+620.6957200192846,
+490.5901129823178,
+1128.4030840033665,
+636.8672579992563,
+206.78686100291088,
+822.8721889900044,
+583.1918389885686,
+714.3680910230614,
+116.23151099774987,
+685.2130469633266,
+608.503882016521,
+893.8417079625651,
+292.18934004893526,
+781.0348710045218,
+448.0680270353332,
+1169.6182930027135,
+203.524204029236,
+435.13939902186394,
+1174.3550090468489,
+1447.0142910140567,
+550.6322989822365,
+1062.0246210019104,
+592.3974590259604,
+131.81153999175876,
+697.2354539902881,
+596.3411869597621,
+742.5294989952818,
+414.3874279689044,
+911.3375130109489,
+1449.264996976126,
+422.8458749712445,
+563.2474790327251,
+919.8517440236174,
+195.46932296361774,
+858.4247939870693,
+275.53316799458116,
+239.24875597003847,
+267.29995803907514,
+1135.8467870159075,
+754.1661289869808,
+356.7975710029714,
+683.5161779890768,
+591.3301580003463,
+1095.9277840447612,
+294.28704699967057,
+115.45326595660299,
+527.4918649811298,
+686.4480470540002,
+329.29933501873165,
+538.1331469980069,
+750.3431729855947,
+370.8427090314217,
+153.83730502799153,
+469.9946819455363,
+530.3961070021614,
+707.6368149719201,
+246.66615604655817,
+70.83264301763847,
+463.7764219660312,
+1306.1421230086125,
+445.87650295579806,
+678.0572420102544,
+1406.6747470060363,
+950.835155963432,
+1203.4147310187109,
+616.3823080132715,
+465.5433500302024,
+144.9544539791532,
+583.6482039885595,
+837.6075379783288,
+278.89240701915696,
+416.3331330055371,
+1307.0749400067143,
+249.6148839709349,
+730.6351899751462,
+1256.4817940001376,
+468.41949597001076,
+472.2641509724781,
+649.7122339787893,
+662.6107610063627,
+397.7986110257916,
+1261.3698589848354,
+414.9144919938408,
+1317.7055150154047,
+531.4758939784952,
+704.1964289965108,
+964.4244840019383,
+598.7131330184639,
+633.3312709466554,
+530.1192940096371,
+709.2633340507746,
+929.667218006216,
+423.87714103097096,
+503.5706239868887,
+701.199148024898,
+503.9734430029057,
+1196.5764819760807,
+223.08523702668026,
+986.5008179913275,
+130.83323504542932,
+430.16543495468795,
+838.9645190327428,
+305.8652710169554,
+797.4190040258691,
+980.8070780127309,
+342.2557899612002,
+980.4978200118057,
+977.6918109855615,
+263.84470699122176,
+898.5835139756091,
+1423.4174500452355,
+315.2915600221604,
+418.7506440212019,
+856.3774300273508,
+1206.3778989831917,
+672.0027870032936,
+852.2636159905232,
+749.3246429949068,
+264.85471497289836,
+263.14412598730996,
+400.63533501233906,
+1063.9544199802913,
+638.12527700793,
+560.4622490354814,
+596.1782510275953,
+931.2575829681009,
+747.5807510199957,
+675.8018659893423,
+1271.732922992669,
+1118.1084389681928,
+517.4638149910606,
+425.25647301226854,
+637.3781490256079,
+446.56864303397015,
+919.7603610227816,
+897.6122570456937,
+301.6408179537393,
+897.9990970110521,
+1198.8675920292735,
+713.3089419803582,
+603.4944739658386,
+311.1833179718815,
+898.986671003513,
+738.6765510309488,
+600.4507649922743,
+448.5562280169688,
+1937.9610809846781,
+873.4351629973389,
+254.09152399515733,
+969.1251890035346,
+592.8042979794554,
+1122.5018379627727,
+587.938265001867,
+887.4310330138542,
+412.76724002091214,
+978.6229569581337,
+294.79632002767175,
+856.5040859975852,
+1079.8508370062336,
+493.8105530454777,
+1288.4070159634575,
+544.1696549532935,
+450.0915509997867,
+396.73829602543265,
+1012.9917309968732,
+511.23878901125863,
+642.320542014204,
+1587.8433450125158,
+744.1179670277052,
+471.74927400192246,
+372.4437970086001,
+821.7472810065374,
+965.9114489913918,
+175.23103102575988,
+1335.997332003899,
+907.2723530116491,
+603.5531939705834,
+512.8677200409584,
+2506.5486039966345,
+356.30703199421987,
+500.08477695519105,
+709.2344149714336,
+448.8959389855154,
+434.7068079514429,
+1218.9787569805048,
+1374.3314829771407,
+393.5213949880563,
+562.5645220279694,
+592.6511809811927,
+688.1102239713073,
+963.0436659790576,
+739.7478480124846,
+492.0419040136039,
+541.7911830008961,
+828.1323519768193,
+545.180368993897,
+817.3090880154632,
+536.5309409680776,
+753.8935790071264,
+357.362020004075,
+550.4173520021141,
+641.895045991987,
+447.8471439797431,
+881.8686910090037,
+1111.8894619867206,
+319.77574003394693,
+800.2695320174098,
+1127.5131980073638,
+777.549104008358,
+538.247456017416,
+304.6673589851707,
+960.2901680045761,
+902.3193889879622,
+951.2378079816699
+]
+}
+}
